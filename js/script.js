@@ -14,7 +14,7 @@ const texts = [
       element.innerHTML = currentTextObj.text.slice(0, charIndex) + '<span class="typing"></span>';
       charIndex++;
       if (charIndex <= currentTextObj.text.length) {
-        setTimeout(type, 2);
+        setTimeout(type, 30);
       } else {
         charIndex = 0;
         textIndex++;
